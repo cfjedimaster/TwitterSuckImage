@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Twitter Image Suck</title>
+		<meta name="description" content="">
+		<meta name="viewport" content="width=device-width">
+		<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+		<script type="text/javascript" src="js/jquery.colorbox-min.js"></script>
+		<link rel="stylesheet" href="css/main.css" />
+		<link rel="stylesheet" href="css/colorbox.css" />
+		<script src="js/app.js"></script>
+	</head>
+	<body>
+
+		<h2>Twitter Image Suck</h2>
+		
+		<p>
+			This tool provides an "image only" view of a Twitter account. Simply enter the username of an account 
+			and you'll see the most recent pictures they've embedded into their Tweets. You can click an individual
+			image for a close up view.
+		</p>
+		
+		<div id="statusArea"></div>
+		
+		<div id="searchForm" style="display:none">
+			<p>
+				<input type="text" id="twitterAccount" placeholder="Twitter Account">
+				<button id="searchButton">Get Images</button>
+			</p>
+		</div>
+		
+		<div id="results" style="display:none"></div>
+		
+	</body>
+</html>

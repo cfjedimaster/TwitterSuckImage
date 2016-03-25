@@ -1,0 +1,18 @@
+{
+  "name": "twittersuckimages",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Raymond Camden",
+  "license": "ISC",
+  "dependencies": {
+    "cookie-parser": "^1.4.1",
+    "express": "^4.13.4",
+    "express-session": "^1.13.0",
+    "oauth": "^0.9.14"
+  }
+}
